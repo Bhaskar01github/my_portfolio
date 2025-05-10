@@ -1184,3 +1184,36 @@ footer {
 .email-link i {
   margin-right: 8px; /* Space between icon and text */
 }
+
+
+
+/* .background-image {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+  z-index: -1;
+} */
+
+.quote-container {
+  position: fixed;
+  top: 75%;
+  width: 100%;
+  text-align: center;
+  color: white;
+  font-family: 'Georgia', serif;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.7);
+  padding: 0 20px;
+}
+
+#quote-text {
+  font-size: 2rem;
+  animation: fadeIn 5s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
